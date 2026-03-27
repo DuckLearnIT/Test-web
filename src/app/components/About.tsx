@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const PORTRAIT = "./src/app/components/ui/Gemini_Generated_Image_xwem10xwem10xwem.png";
+const PORTRAIT = "https://i.ibb.co/bj6yWVJp/Gemini-Generated-Image-xwem10xwem10xwem.png";
 
 function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
